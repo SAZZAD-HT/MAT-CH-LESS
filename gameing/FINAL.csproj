@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{894041D8-3533-4600-A667-440D9FA51DCC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>gameing</RootNamespace>
+    <AssemblyName>gameing</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adminlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminlg.Designer.cs">
+      <DependentUpon>Adminlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="congop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="congop.Designer.cs">
+      <DependentUpon>congop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="ststp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ststp.Designer.cs">
+      <DependentUpon>ststp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iqtest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iqtest2.Designer.cs">
+      <DependentUpon>iqtest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iqtestp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iqtestp.Designer.cs">
+      <DependentUpon>iqtestp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="localp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localp.Designer.cs">
+      <DependentUpon>localp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gkp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gkp.Designer.cs">
+      <DependentUpon>gkp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="level1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level1.Designer.cs">
+      <DependentUpon>level1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noticep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noticep.Designer.cs">
+      <DependentUpon>noticep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcomep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcomep.Designer.cs">
+      <DependentUpon>welcomep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminp.Designer.cs">
+      <DependentUpon>adminp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPuzzleGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPuzzleGame.Designer.cs">
+      <DependentUpon>frmPuzzleGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rankingp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rankingp.Designer.cs">
+      <DependentUpon>rankingp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clp.Designer.cs">
+      <DependentUpon>clp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="createaccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createaccount.Designer.cs">
+      <DependentUpon>createaccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginp.Designer.cs">
+      <DependentUpon>loginp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homep.Designer.cs">
+      <DependentUpon>homep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="avatarp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="avatarp.Designer.cs">
+      <DependentUpon>avatarp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tictactoep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tictactoep.Designer.cs">
+      <DependentUpon>tictactoep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="memorytest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memorytest.Designer.cs">
+      <DependentUpon>memorytest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Adminlg.resx">
+      <DependentUpon>Adminlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="congop.resx">
+      <DependentUpon>congop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ststp.resx">
+      <DependentUpon>ststp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iqtest2.resx">
+      <DependentUpon>iqtest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iqtestp.resx">
+      <DependentUpon>iqtestp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localp.resx">
+      <DependentUpon>localp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gkp.resx">
+      <DependentUpon>gkp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level1.resx">
+      <DependentUpon>level1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noticep.resx">
+      <DependentUpon>noticep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcomep.resx">
+      <DependentUpon>welcomep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminp.resx">
+      <DependentUpon>adminp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPuzzleGame.resx">
+      <DependentUpon>frmPuzzleGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rankingp.resx">
+      <DependentUpon>rankingp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clp.resx">
+      <DependentUpon>clp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="createaccount.resx">
+      <DependentUpon>createaccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginp.resx">
+      <DependentUpon>loginp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homep.resx">
+      <DependentUpon>homep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="avatarp.resx">
+      <DependentUpon>avatarp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tictactoep.resx">
+      <DependentUpon>tictactoep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memorytest.resx">
+      <DependentUpon>memorytest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NikeRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicrosoftTeams-image %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\null.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boy5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girl5.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

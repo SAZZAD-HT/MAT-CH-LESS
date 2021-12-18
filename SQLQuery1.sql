@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[STST_TABLE] (
+[memorytest] NCHAR (100) NULL,
+[iqtest] NCHAR (100) NULL,
+[iqtest2] NCHAR (100) NULL,
+[flyingbird] NCHAR (100) NULL,
+[gktest] NCHAR (100) NULL,
+[puzzel] NCHAR (100) NULL,
+[PLAYER_ID] INT NULL,
+FOREIGN KEY ([PLAYER_ID]) REFERENCES [dbo].[PLAYER_INFO] ([PLAYER_ID])
+);

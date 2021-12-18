@@ -1,0 +1,1 @@
+﻿INSERT INTO STST_TABLE(memorytest) VALUES ('5');
